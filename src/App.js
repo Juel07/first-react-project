@@ -3,10 +3,6 @@ import Tweet from './Tweet';
 
 function App() {
 
-  // const sayHello = () => {
-  //   console.log('hello!')
-  // };
-
   return (
     <div className="app">
       <h1>Twitter</h1>
@@ -16,7 +12,6 @@ function App() {
         <Tweet name="Miney" message="Hey, folks, I'm Miney" />
         <Tweet name="Mo" message="Hey, folks, I'm Mo" />
       </div>
-      {/* <button onClick={sayHello}>Hello</button> */}
     </div>
   );
 }
